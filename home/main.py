@@ -12,3 +12,11 @@ def home():
 @app.route('/findPet')
 def petSearch():
     return render_template('findPet.html')
+
+@app.route('/signUp')
+def CreateAcc():
+    return render_template('CreateAcc.html')
+
+@app.route('/login')
+def Login():
+    return render_template('Login.html')
