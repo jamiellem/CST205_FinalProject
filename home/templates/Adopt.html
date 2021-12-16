@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <title>Pet Find</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" style="font-size:25px"> Adopt a Paw </a>
+            <img src="https://www.pngfind.com/pngs/m/444-4444574_meet-greet-pet-owner-icon-png-transparent-png.png" width="40" height="40" alt="">
+            <a class="navbar-brand" href="/"> &nbsp; &nbsp; Home </a>
+            <a class="navbar-brand" href="/findPet"> Find Pet  </a>
+            <a class="navbar-brand" href="/signUp"> Sign Up  </a>
+            <a class="navbar-brand" href="/login"> Login  </a>
+        </nav>
+    </header>
+    <br>
+
+    <div style="text-indent:30px">
+        First Name: <input id="name" type="text"> <br> <br>
+    </div>
+
+    <div style="text-indent:30px">
+        Last Name: <input id="lastName" type="text"> <br> <br>
+    </div>
+
+    <div style="text-indent:70px">
+       Email: <input id="email" type="text"> <br> <br>
+    </div>
+
+    <div style="text-indent:225px">
+        <button onclick="msg()" class="btn btn-secondary"> submit </button>
+    </div>
+    <br>
+
+    <div style="text-indent:20px">
+        <span id="msg" style="color:green;"></span>
+    </div>
+
+    <div style="text-indent:20px">
+        <span id="error" style="color:red;"></span>
+    </div>
+</body>
+
+<script>
+    function msg(){
+       document.getElementById("msg").innerHTML = "Thank you! Adoption details will be sent to email!"
+    }
+</script>
+
+</html>

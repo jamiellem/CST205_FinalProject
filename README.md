@@ -15,6 +15,7 @@ run flask commands in the terminal.
 
 Git Repo: https://github.com/jamiellem/CST205_FinalProject
 
-Future work: Login/Sign Up functionality in order to adopt pets. 
+Future work: Login/Sign Up functionality and adding more different type of
+pets such as cats and more. 
 
 
